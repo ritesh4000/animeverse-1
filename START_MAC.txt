@@ -1,0 +1,26 @@
+ANIMEVERSE FINAL — MAC START
+
+1) Install Docker Desktop.
+2) Extract this folder.
+3) In Terminal:
+   cd ~/Downloads/ANIMEVERSE_FINAL
+4) Copy environment file:
+   cp .env.example .env
+5) Open .env and set two passwords.
+6) Start everything:
+   docker compose up --build
+7) Open:
+   http://localhost:8000
+
+The first startup imports the included 19,930-row dataset into MySQL.
+After that, the app starts with:
+Browser → FastAPI → MySQL + TF-IDF ML
+
+To stop:
+   Ctrl+C
+
+To start again:
+   docker compose up
+
+IMPORTANT:
+The included dataset must only be used commercially if its license permits commercial redistribution. For a company product, use licensed or customer-owned data unless you have verified rights.

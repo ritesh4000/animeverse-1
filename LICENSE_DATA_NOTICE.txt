@@ -1,0 +1,5 @@
+DATA RIGHTS NOTICE
+
+The software architecture and code in this package are a build artifact for ANIMEVERSE. The included anime dataset originated from the user's uploaded CSV. No claim is made here that the dataset, anime metadata, images, names, or other third-party material is commercially licensed.
+
+Before selling or publicly redistributing ANIMEVERSE with this dataset, verify the source/license and replace the data with a commercially licensed or customer-owned dataset when required.
