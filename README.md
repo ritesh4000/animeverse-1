@@ -4,7 +4,7 @@ Animeverse is a free, static anime discovery site with an IMDb-inspired library,
 
 ## Live site
 
-[Open Animeverse on GitHub Pages](https://shubhankarreddy.github.io/animeverse/)
+[Open Animeverse on GitHub Pages](https://Shraa243.github.io/animeverse-1/)
 
 ## Features
 
