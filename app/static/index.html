@@ -15,7 +15,8 @@ main{max-width:1400px;margin:auto;padding:30px 24px 70px}.view{display:none}.vie
 .table{width:100%;border-collapse:collapse}.table th,.table td{text-align:left;padding:12px;border-bottom:1px solid var(--line)}.table th{font-size:11px;color:var(--muted)}.scroll{overflow:auto}.pager{display:flex;justify-content:center;gap:6px;margin-top:18px}.page{background:#12162b;color:#fff;border:1px solid var(--line);padding:8px 11px;border-radius:8px;cursor:pointer}.empty{padding:40px;text-align:center;color:var(--muted)}
 .modal{position:fixed;inset:0;background:#000b;z-index:50;display:none;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.modalbox{max-width:760px;width:100%;max-height:85vh;overflow:auto;background:#0d1020;border:1px solid var(--line);border-radius:20px;padding:25px}.close{float:right;background:none;border:0;color:#aaa;font-size:25px}
 .catalog-error{display:none;margin:28px 0 0;color:#fb7185;font-size:14px}.catalog-error.show{display:block}
-@media(max-width:900px){.kpis,.cards,.two{grid-template-columns:1fr 1fr}#kpis.kpi-rail{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.library-toolbar{grid-template-columns:1fr 1fr}.library-toolbar .btn{grid-column:span 2}.library-item{grid-template-columns:96px minmax(0,1fr)}.library-poster{width:96px}.library-actions{grid-column:2;justify-self:start}}@media(max-width:600px){.kpis,.cards,.two{grid-template-columns:1fr}#kpis.kpi-rail{grid-template-columns:1fr;gap:28px;margin-top:28px}#kpis .kpi-value{font-size:44px}.nav{flex-direction:column;align-items:flex-start}.library-toolbar{grid-template-columns:1fr}.library-toolbar .btn{grid-column:auto}.library-item{grid-template-columns:78px minmax(0,1fr);gap:13px;padding:16px 0}.library-poster{width:78px;border-radius:8px}.library-name{font-size:18px}.library-actions{grid-column:2}.library-actions .btn{padding:9px 12px;font-size:12px}}@media(prefers-reduced-motion:reduce){#kpis .kpi{animation:none}}
+.rec-options{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin:14px 0 4px;color:var(--muted);font-size:13px}.rec-options label{display:flex;align-items:center;gap:8px}.rec-options input{accent-color:var(--violet)}.quick-picks{display:flex;gap:7px;flex-wrap:wrap}.quick-pick{background:#171b35;border:1px solid var(--line);border-radius:999px;color:#c7c9dc;padding:7px 10px;cursor:pointer}.quick-pick:hover{border-color:#7c6ed0;color:#fff}.rec-heading{margin:28px 0 14px;font:700 22px "Space Grotesk"}.rec-anchor{display:grid;grid-template-columns:88px minmax(0,1fr);gap:17px;align-items:center;padding:15px;margin-bottom:18px;background:linear-gradient(135deg,#23164a,#15152d);border-radius:15px}.rec-anchor h2{margin:3px 0 8px;font:700 24px "Space Grotesk"}.rec-kicker,.match-reason{color:var(--muted);font-size:12px}.rec-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.rec-card{display:grid;grid-template-columns:82px minmax(0,1fr);gap:14px;padding:14px;background:#0c1022;border:1px solid var(--line);border-radius:15px}.rec-card h3{margin:5px 0 7px;font:700 17px/1.25 "Space Grotesk"}.rec-card .meta{margin:8px 0}.rec-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:11px}.rec-actions .btn{padding:8px 10px;font-size:11px}.match-badge{display:inline-flex;border-radius:999px;background:#211c42;color:#c4b5fd;padding:5px 8px;font-size:11px;font-weight:700}.media-poster{position:relative;width:82px;aspect-ratio:2/3;overflow:hidden;border-radius:8px;background:linear-gradient(145deg,var(--poster,#312e81),#0c0f20);box-shadow:0 9px 20px #0006}.media-poster.anchor-poster{width:88px}.media-poster img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.media-poster .poster-fallback{font-size:19px}.detail-layout{display:grid;grid-template-columns:112px minmax(0,1fr);gap:20px;align-items:start}.detail-layout .media-poster{width:112px}.detail-stats{grid-template-columns:repeat(2,minmax(0,1fr));margin:15px 0}.detail-stats .card{padding:14px}.detail-stats h2{margin:7px 0 0}.offline-badge{display:inline-flex;margin-top:18px;padding:7px 10px;border-radius:999px;background:#11162b;color:#8e96b8;font-size:11px}
+@media(max-width:900px){.kpis,.cards,.two{grid-template-columns:1fr 1fr}#kpis.kpi-rail{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.library-toolbar{grid-template-columns:1fr 1fr}.library-toolbar .btn{grid-column:span 2}.library-item{grid-template-columns:96px minmax(0,1fr)}.library-poster{width:96px}.library-actions{grid-column:2;justify-self:start}.rec-grid{grid-template-columns:1fr}}@media(max-width:600px){.kpis,.cards,.two{grid-template-columns:1fr}#kpis.kpi-rail{grid-template-columns:1fr;gap:28px;margin-top:28px}#kpis .kpi-value{font-size:44px}.nav{flex-direction:column;align-items:flex-start}.library-toolbar{grid-template-columns:1fr}.library-toolbar .btn{grid-column:auto}.library-item{grid-template-columns:78px minmax(0,1fr);gap:13px;padding:16px 0}.library-poster{width:78px;border-radius:8px}.library-name{font-size:18px}.library-actions{grid-column:2}.library-actions .btn{padding:9px 12px;font-size:12px}.rec-card{grid-template-columns:72px minmax(0,1fr);padding:11px}.media-poster{width:72px}.rec-anchor{grid-template-columns:72px minmax(0,1fr)}.media-poster.anchor-poster{width:72px}.detail-layout{grid-template-columns:78px minmax(0,1fr);gap:13px}.detail-layout .media-poster{width:78px}}@media(prefers-reduced-motion:reduce){#kpis .kpi{animation:none}}
 .eyebrow { display: none !important; }
 </style></head><body>
 <header><div class="nav"><div class="logo">ANIME<b>VERSE</b></div><nav>
@@ -24,21 +25,176 @@ main{max-width:1400px;margin:auto;padding:30px 24px 70px}.view{display:none}.vie
 <main>
 <section id=home class="view active"><div class=hero><div class=eyebrow></div><h1>Discover. Analyze.<br><span style="color:#a78bfa">Recommend.</span></h1><p></p><div class=toolbar><button class=btn onclick="go('library')">Browse Library →</button><button class="btn alt" onclick="go('recommend')">Get Recommendations</button></div></div><dl id=kpis class=kpi-rail aria-label="Catalog statistics" aria-live=polite></dl><p id=homeError class=catalog-error role=status></p></section>
 <section id=library class=view><div class="hero library-hero"><h1>Anime Library</h1><p>Browse the complete catalog, compare ratings, and discover your next watch.</p></div><div class=library-toolbar><input id=libraryQ class=input placeholder="Search titles, genres, or studios" aria-label="Search the anime library" onkeydown="if(event.key==='Enter')loadLibrary(0)"><select id=libraryGenre class=select aria-label="Filter by genre"><option value="">All genres</option></select><select id=libraryType class=select aria-label="Filter by format"><option value="">All formats</option></select><select id=librarySort class=select aria-label="Sort library"><option value=rating>Top rated</option><option value=popular>Most popular</option><option value=newest>Newest</option><option value=title>Title A–Z</option></select><button class=btn onclick="loadLibrary(0)">Search</button></div><div id=librarySummary class=library-summary></div><div id=libraryResults class=library-list></div><div id=libraryPager class=library-pager></div></section>
-<section id=recommend class=view><div class=hero><div class=eyebrow></div><h1>Recommendations</h1><p></p></div><div class=panel><div class=toolbar><input id=recQ class=input placeholder="Search an anime title"><button class=btn onclick=findRec()>Find & Recommend</button></div><div id=rec class=empty>Enter an anime title.</div></div></section>
+<section id=recommend class=view><div class=hero><div class=eyebrow></div><h1>Recommendations</h1><p>Choose a title you enjoy and discover anime connected by genre, studio, format, themes, and audience.</p></div><div class=panel><div class=toolbar><input id=recQ class=input list=recTitles placeholder="Search an anime title" aria-label="Search an anime title" onkeydown="if(event.key==='Enter')findRec()"><datalist id=recTitles></datalist><button class=btn onclick=findRec()>Find Recommendations</button></div><div class=rec-options><label><input id=excludeSequels type=checkbox checked> Hide direct sequels and spin-offs</label><div id=quickPicks class=quick-picks></div></div><div id=rec class=empty>Search for an anime to get ten personalized matches.</div></div></section>
 <section id=gems class=view><div class=hero><div class=eyebrow>QUALITY × DISCOVERY</div><h1>Hidden Gems 💎</h1><p>Highly rated titles with comparatively lower popularity.</p></div><div id=gemsGrid class="grid cards"></div></section>
 </main>
 <div id=modal class=modal><div class=modalbox><button class=close onclick=closeModal()>×</button><div id=modalBody></div></div></div>
 <script>
-const API="";const $=s=>document.querySelector(s);const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-function go(v){document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));$("#"+v).classList.add("active");document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("active",x.dataset.v===v));if(v==="library")loadLibrary(0);if(v==="gems")loadGems();scrollTo(0,0)}
-document.querySelectorAll("nav button").forEach(x=>x.onclick=()=>go(x.dataset.v));
-async function api(u){let r=await fetch(API+u);if(!r.ok)throw Error(await r.text());return r.json()}
-async function boot(){try{let [s,m]=await Promise.all([api("/api/stats"),api("/api/meta")]);$("#kpis").innerHTML=[["Total Anime",s.total_anime,"Titles available"],["Studios",s.studios,"Individual studios represented"],["Genres",s.genres,"Genres represented"]].map(x=>`<div class=kpi><dt class=sr-only>${x[0]}</dt><dd><strong class=kpi-value>${Number(x[1]).toLocaleString()}</strong><span class=kpi-caption>${x[2]}</span></dd></div>`).join("");m.genres.forEach(g=>$("#libraryGenre").insertAdjacentHTML("beforeend",`<option>${esc(g)}</option>`));m.types.forEach(t=>$("#libraryType").insertAdjacentHTML("beforeend",`<option>${esc(t)}</option>`));$("#homeError").classList.remove("show");}catch(e){console.error(e);$("#homeError").textContent="The catalog is temporarily unavailable. Please try again shortly.";$("#homeError").classList.add("show")}}
-function posterInitials(name){return String(name||"AN").split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("").toUpperCase()}
-async function loadLibrary(offset=0){const limit=18,params=new URLSearchParams({q:$("#libraryQ").value.trim(),genre:$("#libraryGenre").value,type:$("#libraryType").value,sort:$("#librarySort").value,limit,offset});$("#librarySummary").innerHTML="<span>Loading library…</span>";$("#libraryResults").innerHTML="<div class=library-loading>Finding titles and artwork…</div>";$("#libraryPager").innerHTML="";try{let result=await api("/api/library?"+params),items=result.items||[],total=Number(result.total||0),end=Math.min(offset+items.length,total),page=Math.floor(offset/limit)+1,pages=Math.max(1,Math.ceil(total/limit));$("#librarySummary").innerHTML=`<span><b style="color:var(--text)">${total.toLocaleString()}</b> titles</span><span>Showing ${total?offset+1:0}–${end}</span>`;if(!items.length){$("#libraryResults").innerHTML="<div class=empty>No anime matched those filters.</div>";return}$("#libraryResults").innerHTML=items.map((x,i)=>{let facts=[x.year||"Year unknown",x.type||"Format unknown",x.episodes?`${x.episodes} episode${x.episodes===1?"":"s"}`:null,x.popularity?`Popularity #${Number(x.popularity).toLocaleString()}`:null].filter(Boolean),color=/^#[0-9a-f]{6}$/i.test(x.image_color||"")?x.image_color:"#312e81",poster=x.image_url?`<img src="${esc(x.image_url)}" alt="Poster for ${esc(x.name)}" loading=lazy onerror="this.remove()">`:"";return `<article class=library-item><div class=library-poster style="--poster:${color}"><span class=poster-fallback>${esc(posterInitials(x.name))}</span>${poster}</div><div class=library-info><div class=library-rank>#${offset+i+1}</div><button class=library-name onclick="detail(${x.id})">${esc(x.name)}</button><div class=library-facts>${facts.map(v=>`<span>${esc(v)}</span>`).join("")}</div><div class=library-rating><b>★</b><span>${x.score??"Not rated"}</span></div><p class=library-genres>${esc(x.genres||"Genres not listed")}</p><p class=library-studio>${x.studios?`Studio: ${esc(x.studios)}`:"Studio not listed"}</p></div><div class=library-actions><button class="btn alt" onclick="detail(${x.id})">View details</button></div></article>`}).join("");$("#libraryPager").innerHTML=`${offset>0?`<button class=page onclick="loadLibrary(${Math.max(0,offset-limit)})">← Previous</button>`:""}<span class=library-page-label>Page ${page} of ${pages}</span>${offset+limit<total?`<button class=page onclick="loadLibrary(${offset+limit})">Next →</button>`:""}`;}catch(e){console.error(e);$("#librarySummary").innerHTML="";$("#libraryResults").innerHTML="<div class=empty>The library is temporarily unavailable. Please try again shortly.</div>"}}
-async function detail(id){let x=await api("/api/anime/"+id);$("#modalBody").innerHTML=`<div class=eyebrow>ANIME DETAILS</div><h1 style="font-family:'Space Grotesk'">${esc(x.name)}</h1><div class=grid kpis><div class=card><small>Score</small><h2 class=score>★ ${x.score??"—"}</h2></div><div class=card><small>Popularity</small><h2>${x.popularity??"—"}</h2></div></div><p class=muted><b>Genres:</b> ${esc(x.genres)}<br><b>Studio:</b> ${esc(x.studios)}<br><b>Type:</b> ${esc(x.type)}<br><b>Year:</b> ${x.year||"—"}<br><b>Episodes:</b> ${x.episodes||"—"}</p><p style="line-height:1.7">${esc(x.synopsis)||"No synopsis available."}</p><button class=btn onclick="closeModal();go('recommend');$('#recQ').value='${esc(x.name).replaceAll("'","&#39;")}';findRec()">Recommend similar</button>`;$("#modal").classList.add("show")}
+const $=selector=>document.querySelector(selector);
+const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
+const DATA_FILE=name=>new URL(`data/${name}`,document.baseURI);
+const ANILIST_URL="https://graphql.anilist.co";
+let CATALOG=[],META={},BY_ID=new Map(),RECOMMENDATIONS=null;
+const POSTERS=new Map();
+
+function go(view){
+  document.querySelectorAll(".view").forEach(item=>item.classList.remove("active"));
+  $("#"+view).classList.add("active");
+  document.querySelectorAll("nav button").forEach(item=>item.classList.toggle("active",item.dataset.v===view));
+  if(view==="library")loadLibrary(0);
+  if(view==="gems")loadGems();
+  scrollTo(0,0);
+}
+document.querySelectorAll("nav button").forEach(item=>item.onclick=()=>go(item.dataset.v));
+
+async function jsonFile(name){
+  const response=await fetch(DATA_FILE(name));
+  if(!response.ok)throw Error(`Unable to load ${name}`);
+  return response.json();
+}
+
+function posterInitials(name){
+  return String(name||"AN").split(/\s+/).filter(Boolean).slice(0,2).map(word=>word[0]).join("").toUpperCase();
+}
+
+function posterMarkup(anime,extraClass=""){
+  const saved=POSTERS.get(anime.id)||{};
+  const color=/^#[0-9a-f]{6}$/i.test(saved.color||"")?saved.color:"#312e81";
+  const image=saved.url?`<img src="${esc(saved.url)}" alt="Poster for ${esc(anime.name)}" loading=lazy onerror="this.remove()">`:"";
+  return `<div class="media-poster ${extraClass}" data-poster-id="${anime.id}" style="--poster:${color}"><span class=poster-fallback>${esc(posterInitials(anime.name))}</span>${image}</div>`;
+}
+
+async function hydratePosters(items){
+  const unique=[...new Map(items.filter(Boolean).map(item=>[item.id,item])).values()];
+  const missing=unique.filter(item=>!POSTERS.has(item.id));
+  for(let start=0;start<missing.length;start+=18){
+    const batch=missing.slice(start,start+18);
+    const definitions=batch.map((_,index)=>`$q${index}: String`).join(", ");
+    const fields=batch.map((_,index)=>`m${index}: Page(page: 1, perPage: 1) { media(search: $q${index}, type: ANIME, isAdult: false) { coverImage { large color } } }`).join(" ");
+    try{
+      const response=await fetch(ANILIST_URL,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({query:`query (${definitions}) { ${fields} }`,variables:Object.fromEntries(batch.map((item,index)=>[`q${index}`,item.name]))})});
+      if(!response.ok)throw Error("Artwork request failed");
+      const data=(await response.json()).data||{};
+      batch.forEach((item,index)=>{
+        const media=data[`m${index}`]?.media?.[0];
+        const cover=media?.coverImage||{};
+        POSTERS.set(item.id,{url:typeof cover.large==="string"?cover.large:null,color:/^#[0-9a-f]{6}$/i.test(cover.color||"")?cover.color:"#312e81"});
+      });
+    }catch(error){
+      console.warn("Poster artwork is temporarily unavailable.",error);
+    }
+  }
+  unique.forEach(item=>{
+    const poster=POSTERS.get(item.id);
+    if(!poster)return;
+    document.querySelectorAll(`[data-poster-id="${item.id}"]`).forEach(element=>{
+      element.style.setProperty("--poster",poster.color||"#312e81");
+      if(poster.url&&!element.querySelector("img"))element.insertAdjacentHTML("beforeend",`<img src="${esc(poster.url)}" alt="Poster for ${esc(item.name)}" loading=lazy onerror="this.remove()">`);
+    });
+  });
+}
+
+async function boot(){
+  try{
+    [CATALOG,META]=await Promise.all([jsonFile("catalog.json"),jsonFile("meta.json")]);
+    BY_ID=new Map(CATALOG.map(item=>[item.id,item]));
+    const stats=META.stats;
+    $("#kpis").innerHTML=[["Total Anime",stats.total_anime,"Titles available"],["Studios",stats.studios,"Individual studios represented"],["Genres",stats.genres,"Genres represented"]].map(item=>`<div class=kpi><dt class=sr-only>${item[0]}</dt><dd><strong class=kpi-value>${Number(item[1]).toLocaleString()}</strong><span class=kpi-caption>${item[2]}</span></dd></div>`).join("");
+    META.genres.forEach(value=>$("#libraryGenre").insertAdjacentHTML("beforeend",`<option>${esc(value)}</option>`));
+    META.types.forEach(value=>$("#libraryType").insertAdjacentHTML("beforeend",`<option>${esc(value)}</option>`));
+    const popular=[...CATALOG].filter(item=>item.popularity).sort((a,b)=>a.popularity-b.popularity);
+    $("#recTitles").innerHTML=popular.slice(0,800).map(item=>`<option value="${esc(item.name)}"></option>`).join("");
+    const picks=["Sousou no Frieren","Death Note","Naruto","Shingeki no Kyojin"].map(name=>CATALOG.find(item=>item.name===name)).filter(Boolean);
+    $("#quickPicks").innerHTML=picks.map(item=>`<button class=quick-pick onclick="recommendFrom(${item.id})">${esc(item.name)}</button>`).join("");
+    $("#homeError").classList.remove("show");
+  }catch(error){
+    console.error(error);
+    $("#homeError").textContent="The catalog could not be loaded. Please refresh and try again.";
+    $("#homeError").classList.add("show");
+  }
+}
+
+function libraryMatches(){
+  const query=$("#libraryQ").value.trim().toLowerCase();
+  const genre=$("#libraryGenre").value;
+  const type=$("#libraryType").value;
+  const results=CATALOG.filter(item=>(!query||`${item.name} ${item.genres} ${item.studios}`.toLowerCase().includes(query))&&(!genre||item.genres.split(",").map(value=>value.trim()).includes(genre))&&(!type||item.type===type));
+  const sort=$("#librarySort").value;
+  results.sort((a,b)=>{
+    if(sort==="popular")return (a.popularity??Infinity)-(b.popularity??Infinity)||(b.score??-1)-(a.score??-1);
+    if(sort==="newest")return (b.year??-Infinity)-(a.year??-Infinity)||(b.score??-1)-(a.score??-1);
+    if(sort==="title")return a.name.localeCompare(b.name);
+    return (b.score??-1)-(a.score??-1)||(a.popularity??Infinity)-(b.popularity??Infinity);
+  });
+  return results;
+}
+
+async function loadLibrary(offset=0){
+  const limit=18;
+  if(!CATALOG.length){$("#libraryResults").innerHTML="<div class=library-loading>Loading the catalog…</div>";return}
+  const matches=libraryMatches();
+  offset=Math.max(0,Math.min(offset,Math.max(0,matches.length-1)));
+  const items=matches.slice(offset,offset+limit),total=matches.length,end=Math.min(offset+items.length,total),page=Math.floor(offset/limit)+1,pages=Math.max(1,Math.ceil(total/limit));
+  $("#librarySummary").innerHTML=`<span><b style="color:var(--text)">${total.toLocaleString()}</b> titles</span><span>Showing ${total?offset+1:0}–${end}</span>`;
+  if(!items.length){$("#libraryResults").innerHTML="<div class=empty>No anime matched those filters.</div>";$("#libraryPager").innerHTML="";return}
+  $("#libraryResults").innerHTML=items.map((item,index)=>{
+    const facts=[item.year||"Year unknown",item.type||"Format unknown",item.episodes?`${item.episodes} episode${item.episodes===1?"":"s"}`:null,item.popularity?`Popularity #${Number(item.popularity).toLocaleString()}`:null].filter(Boolean);
+    return `<article class=library-item><div class=library-poster data-poster-id="${item.id}" style="--poster:#312e81"><span class=poster-fallback>${esc(posterInitials(item.name))}</span></div><div class=library-info><div class=library-rank>#${offset+index+1}</div><button class=library-name onclick="detail(${item.id})">${esc(item.name)}</button><div class=library-facts>${facts.map(value=>`<span>${esc(value)}</span>`).join("")}</div><div class=library-rating><b>★</b><span>${item.score??"Not rated"}</span></div><p class=library-genres>${esc(item.genres||"Genres not listed")}</p><p class=library-studio>${item.studios?`Studio: ${esc(item.studios)}`:"Studio not listed"}</p></div><div class=library-actions><button class="btn alt" onclick="detail(${item.id})">View details</button></div></article>`;
+  }).join("");
+  $("#libraryPager").innerHTML=`${offset>0?`<button class=page onclick="loadLibrary(${Math.max(0,offset-limit)})">← Previous</button>`:""}<span class=library-page-label>Page ${page} of ${pages}</span>${offset+limit<total?`<button class=page onclick="loadLibrary(${offset+limit})">Next →</button>`:""}`;
+  hydratePosters(items);
+}
+
+function detail(id){
+  const item=BY_ID.get(Number(id));
+  if(!item)return;
+  $("#modalBody").innerHTML=`<div class=detail-layout>${posterMarkup(item)}<div><h1 style="font-family:'Space Grotesk';margin-top:0">${esc(item.name)}</h1><div class="grid detail-stats"><div class=card><small>Score</small><h2 class=score>★ ${item.score??"—"}</h2></div><div class=card><small>Popularity</small><h2>${item.popularity?`#${Number(item.popularity).toLocaleString()}`:"—"}</h2></div></div><p class=muted><b>Genres:</b> ${esc(item.genres||"—")}<br><b>Studio:</b> ${esc(item.studios||"—")}<br><b>Type:</b> ${esc(item.type||"—")}<br><b>Year:</b> ${item.year||"—"}<br><b>Episodes:</b> ${item.episodes||"—"}</p></div></div><p style="line-height:1.7">${esc(item.synopsis)||"No synopsis available."}</p><button class=btn onclick="closeModal();recommendFrom(${item.id})">Recommend similar</button>`;
+  $("#modal").classList.add("show");
+  hydratePosters([item]);
+}
 function closeModal(){$("#modal").classList.remove("show")}
-async function findRec(){let q=$("#recQ").value.trim();if(!q)return;let a=await api("/api/anime?q="+encodeURIComponent(q)+"&limit=1");if(!a.length){$("#rec").innerHTML="<div class=empty>Anime not found.</div>";return}let out=await api("/api/recommendations/"+a[0].id+"?limit=10");$("#rec").innerHTML=`<h3>Because you chose ${esc(a[0].name)}</h3><div class=grid cards>${out.map(x=>`<div class=card anime><h3>${esc(x.name)}</h3><div class=score>${Math.round(x.similarity*100)}% similar</div><p class=muted>${esc(x.genres)}</p></div>`).join("")}</div>`}
-async function loadGems(){let a=await api("/api/hidden-gems?limit=12");$("#gemsGrid").innerHTML=a.map((x,i)=>`<div class=card anime><div class=meta><span class=tag>💎 #${i+1}</span><span class=score>★ ${x.score}</span></div><h3 style="margin-top:12px">${esc(x.name)}</h3><p class=muted>${esc(x.genres)}<br>Popularity: ${x.popularity}</p></div>`).join("")}
+
+function findAnime(query){
+  const value=query.trim().toLowerCase();
+  if(!value)return null;
+  return CATALOG.find(item=>item.name.toLowerCase()===value)||CATALOG.find(item=>item.name.toLowerCase().startsWith(value))||[...CATALOG].filter(item=>item.name.toLowerCase().includes(value)).sort((a,b)=>(a.popularity??Infinity)-(b.popularity??Infinity))[0]||null;
+}
+function canonicalTitle(name){return name.toLowerCase().replace(/\b(2nd|3rd|season|part|movie|special|ova|ona)\b/g," ").replace(/[^a-z0-9]+/g," ").trim()}
+function directRelation(base,candidate){const a=canonicalTitle(base.name),b=canonicalTitle(candidate.name);return a.length>5&&b.length>5&&(a.startsWith(b+" ")||b.startsWith(a+" "))}
+function recommendationReason(base,candidate){
+  const baseGenres=new Set(base.genres.split(",").map(value=>value.trim()).filter(Boolean));
+  const shared=candidate.genres.split(",").map(value=>value.trim()).filter(value=>baseGenres.has(value));
+  const reasons=[];
+  if(shared.length)reasons.push(`Shared ${shared.slice(0,2).join(" and ")} themes`);
+  if(base.studios&&base.studios===candidate.studios)reasons.push(`Also from ${base.studios}`);
+  if(base.type&&base.type===candidate.type)reasons.push(`Same ${base.type} format`);
+  return reasons.slice(0,2).join(" · ")||"A complementary catalog discovery";
+}
+function matchLabel(value){if(value>=.75)return"Exceptional match";if(value>=.6)return"Strong match";if(value>=.45)return"Good match";return"Discovery pick"}
+
+async function findRec(forcedId=null){
+  const base=forcedId?BY_ID.get(Number(forcedId)):findAnime($("#recQ").value);
+  if(!base){$("#rec").innerHTML="<div class=empty>Anime not found. Try selecting one of the suggested titles.</div>";return}
+  $("#recQ").value=base.name;
+  $("#rec").innerHTML="<div class=empty>Loading precomputed recommendation matches…</div>";
+  try{
+    if(!RECOMMENDATIONS)RECOMMENDATIONS=await jsonFile("recommendations.json");
+    let matches=(RECOMMENDATIONS[String(base.id)]||[]).map(([id,similarity])=>({item:BY_ID.get(id),similarity})).filter(match=>match.item);
+    if($("#excludeSequels").checked)matches=matches.filter(match=>!directRelation(base,match.item));
+    matches=matches.slice(0,10);
+    $("#rec").innerHTML=`<h2 class=rec-heading>Because you chose</h2><div class=rec-anchor>${posterMarkup(base,"anchor-poster")}<div><span class=rec-kicker>Your starting title</span><h2>${esc(base.name)}</h2><div class=meta><span class=score>★ ${base.score??"—"}</span><span>${esc(base.type||"Format unknown")}</span><span>${base.year||"Year unknown"}</span></div><p class=match-reason>${esc(base.genres||"Genres not listed")}</p></div></div><h2 class=rec-heading>Recommended for you</h2><div class=rec-grid>${matches.map(match=>{const item=match.item;return `<article class=rec-card>${posterMarkup(item)}<div><span class=match-badge>${matchLabel(match.similarity)} · ${Math.round(match.similarity*100)}%</span><h3>${esc(item.name)}</h3><div class=meta><span class=score>★ ${item.score??"—"}</span><span>${esc(item.type||"—")}</span><span>${item.year||"—"}</span></div><p class=match-reason>${esc(recommendationReason(base,item))}</p><div class=rec-actions><button class="btn alt" onclick="detail(${item.id})">View details</button><button class=btn onclick="recommendFrom(${item.id})">Use this title</button></div></div></article>`}).join("")}</div><span class=offline-badge>Recommendations are precomputed and served entirely by GitHub Pages</span>`;
+    hydratePosters([base,...matches.map(match=>match.item)]);
+  }catch(error){console.error(error);$("#rec").innerHTML="<div class=empty>Recommendations could not be loaded. Please refresh and try again.</div>"}
+}
+function recommendFrom(id){const item=BY_ID.get(Number(id));if(!item)return;go("recommend");$("#recQ").value=item.name;findRec(item.id)}
+
+async function loadGems(){
+  if(!CATALOG.length){$("#gemsGrid").innerHTML="<div class=empty>Loading hidden gems…</div>";return}
+  const items=(META.hidden_gems||[]).map(id=>BY_ID.get(id)).filter(Boolean);
+  $("#gemsGrid").className="rec-grid";
+  $("#gemsGrid").innerHTML=items.map((item,index)=>`<article class=rec-card>${posterMarkup(item)}<div><span class=match-badge>💎 Hidden gem #${index+1}</span><h3>${esc(item.name)}</h3><div class=meta><span class=score>★ ${item.score}</span><span>Popularity #${Number(item.popularity).toLocaleString()}</span></div><p class=match-reason>${esc(item.genres||"Genres not listed")}</p><div class=rec-actions><button class="btn alt" onclick="detail(${item.id})">View details</button><button class=btn onclick="recommendFrom(${item.id})">Find similar</button></div></div></article>`).join("");
+  hydratePosters(items);
+}
+
 boot();
 </script></body></html>
